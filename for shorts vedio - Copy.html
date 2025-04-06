@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>huggy tv</title>
+<!--<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">-->
+<style>
+.background-all-itema{
+background-color:cyan;
+position:absolute;
+top:10%;
+left:5%;
+/*transform:translate(-50%);*/
+width:300px;
+height:510px;
+overflow: hidden;
+}
+.huggya{
+background-color:blue;
+border-bottom-left-radius:1000px;
+border-bottom-right-radius:1000px;
+position: absolute;
+top: 20px;
+left: 25px;
+width:100px;
+height:65px;
+z-index: 1;
+}
+.mountha{
+
+width:30px;
+height:30px;
+position:absolute;
+top:35px;
+left:35px;
+z-index: 1;
+}
+.top-lipsa{
+border-radius:100%;
+width:80px;
+height:20px;
+border-bottom:red solid 4px;
+position:absolute;
+top:-50%;
+left:-80%;
+z-index: 1;
+}
+.bottom-lipsa{
+border-radius:100%;
+width:75px;
+height:15px;
+border-bottom:red solid 8px;
+border-left:red solid 2px;
+border-right:red solid 2px;
+position:absolute;
+bottom:60%;
+left:-80%;
+z-index: 1;
+}
+.eye1a{
+border-radius:50%;
+background-color:white;
+width:20px;
+height:20px;
+position:absolute;
+top:8px;
+left:20px;
+z-index: 1;
+}
+.enabie1a{
+border-radius:50%;
+background-color:black;
+width:10px;
+height:10px;
+position:absolute;
+top:5px;
+left:5px;
+transform: scale(1.3);
+z-index: 1;
+}
+.enabie1a:hover{
+border-radius:50%;
+background-color:black;
+width:10px;
+height:10px;
+position:absolute;
+top:5px;
+left:5px;
+transform: scale(0.3);
+transition: 2s;
+z-index: 1;
+}
+.eye2a{
+border-radius:50%;
+background-color:white;
+width:20px;
+height:20px;
+position:absolute;
+top:8px;
+left:60px;
+z-index: 1;
+}
+.enabie2a{
+border-radius:50%;
+background-color:black;
+width:10px;
+height:10px;
+position:absolute;
+top:5px;
+left:5px;
+transform: scale(1.3);
+z-index: 1;
+}
+.enabie2a:hover{
+border-radius:50%;
+background-color:black;
+width:10px;
+height:10px;
+position:absolute;
+top:5px;
+left:5px;
+transform: scale(0.3);
+transition: 2s;
+z-index: 1;
+}
+.mountha:hover{
+transition: 2s;
+width:30px;
+height:40px;
+position:absolute;
+top:35px;
+left:35px;
+z-index: 1;
+}
+
+.dandan1a{
+background-color:white;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+width:10px;
+height:3px;
+position:absolute;
+top:4px;
+left:-15px;
+border:1px black solid;
+transform:rotate(10deg);
+z-index: 1;
+}
+.dandan2a{
+background-color:white;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+width:10px;
+height:4px;
+position:absolute;
+top:4px;
+left:-3px;
+border:1px black solid;
+z-index: 1;
+}
+.dandan3a{
+background-color:white;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+width:10px;
+height:6px;
+position:absolute;
+top:4px;
+left:8px;
+border:1px black solid;
+z-index: 1;
+}
+.dandan4a{
+background-color:white;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+width:10px;
+height:5px;
+position:absolute;
+top:4px;
+left:20px;
+border:1px black solid;
+z-index: 1;
+}
+.dandan5a{
+background-color:white;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+transform: rotate(-10deg);
+width:10px;
+height:4px;
+position:absolute;
+top:4px;
+left:30px;
+border:1px black solid;
+z-index: 1;
+}
+.background-of-huggya{
+    background-color: black;
+    position:absolute;
+    border:6px   rgba(0, 0, 0, 0.582) outset;
+    
+    
+    width: 150px;
+    height:100px;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px ;
+    border-bottom-left-radius: 8px ;
+    border-bottom-right-radius: 8px ;
+    z-index: 1;
+}
+.screen-of-televisitiona{
+    background-color: black;
+    position:absolute;
+    width: 150px;
+    height:100px;
+    top: 275px;;
+    left:593px;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px ;
+    border-bottom-left-radius: 8px ;
+    border-bottom-right-radius: 8px ;
+    z-index: 0;
+    
+}
+.televsitiona{
+    background-color: rgba(0, 0, 0, 0.952);
+    width: 165px;
+    height:140px ;
+    position: absolute;
+    top:30px;
+    left:55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+.speakers1a{
+    background-color: black;
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 135px;
+    left: 5px;
+    border-top-left-radius: 3px ;
+    border-top-right-radius: 3px ;
+    border-bottom-left-radius: 3px ;
+    border-bottom-right-radius: 3px ;
+}
+.speakers2a{
+    background-color: black;
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 135px;
+    right: 5px;
+    border-top-left-radius: 3px ;
+    border-top-right-radius: 3px ;
+    border-bottom-left-radius: 3px ;
+    border-bottom-right-radius: 3px ;
+}
+.border-dasha{
+    width: 70px;
+    border-bottom: 2px white dashed;
+    position: absolute;
+    top: 120px;
+    left: 43px;
+}
+.blackbuttona{
+    width:10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 140px;
+    left: 113px;
+}
+.border-dash2a{
+    width: 20px;
+    border-bottom: 2px white dashed;
+    position: absolute;
+    top: 120px;
+    left: 124px;
+}
+.buttonhelp-yellowa{
+    border-radius: 50%;
+    width: 5px;
+    height: 15px;
+    background-color: yellow;
+    position: absolute;
+    top: 145px;
+    left: 124px;
+}
+.cabla{
+    border-right: outset 10px black;
+    border-bottom: outset 8px black;
+    transform: rotateY(70deg);
+    width: 20px;
+    height: 194px;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    border-bottom-right-radius: 10%;
+}
+.chair-for-cddrivea{
+position: absolute;
+background-color: rgb(216, 152, 73);
+top: 410px;
+width: 150px;
+    height: 20px;
+    left: 50px;
+}
+.chair2-for-cddrivea{
+position: absolute;
+background-color: rgb(216, 152, 73);
+top: 450px;
+width: 100px;
+    height: 20px;
+    left: 10px;
+    transform: rotate(90deg);
+}
+/*.chair3-for-cddrivea{
+position: absolute;
+background-color: rgb(216, 152, 73);
+top: 450px;
+width: 100px;
+    height: 20px;
+    left: 50px;
+    transform: rotate(90deg);
+
+}
+.chair4-for-cddrivea{
+position: absolute;
+background-color: rgb(216, 152, 73);
+top: 450px;
+width: 100px;
+    height: 20px;
+    left: 110px;
+    transform: rotate(90deg);
+
+}*/
+.chair5-for-cddrivea{
+position: absolute;
+background-color: rgb(216, 152, 73);
+top: 450px;
+width: 100px;
+    height: 20px;
+    left: 140px;
+    transform: rotate(90deg);
+
+}
+.cd-drivea{
+    position: absolute;
+    top: 386px;
+    background-color: green;
+    left: 80px;
+    width: 80px;
+    height: 22px;
+}
+.fishboxa{
+    border-top-left-radius:15px ;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+    background-color: black;
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    top: 15px;
+    left: 4px;
+    bottom: 0px;
+}
+.yellow-fisha{
+    background-color: yellow;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+.white-fisha{
+    background-color: white;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 6px;
+}
+.red-fisha{
+    background-color: red;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+.cd-drive-speaker1a{
+    background-color: black;
+    width: 15px;
+    height: 6px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+.cd-drive-speaker2a{
+background-color: black;
+width: 15px;
+height: 6px;
+border-top-left-radius:15px ;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+position: absolute;
+top: 2px;
+right: 4px;
+}
+.fishbox2a{
+    border-top-left-radius:15px ;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+    background-color: black;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    top: 15px;
+    right: 6px;
+    bottom: 0px;
+}
+.mothalasa{
+    background-color: grey;
+    border-top-left-radius: 40%;
+    border-top-right-radius:40% ;
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+.cd-drive-inputa{
+    background-color: black;
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+.vhs-greena{
+    background-color: rgb(56, 179, 56);
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+}
+.vhs-greena:hover{
+    background-color: rgb(56, 179, 56);
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    animation: vhs1a 5s 1;
+    cursor:grab;
+}
+@keyframes vhs1a{
+    0%{left: 20px;top: 60px;}
+    50%{left: 20px;top: 20px;transform: rotateX(60deg);}
+    50%{left: 20px;top: 15px;transform: rotateX(70deg);}
+    100%{left: 20px;top: 0px;transform: rotateX(80deg);}
+}
+.vhs-green-navara{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 8px;
+    height: 10px;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+
+}
+.vhs-green-navar2a{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 8px;
+    height: 10px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
+.vhs-green-navar-oa{
+    background-color: rgba(218, 218, 218, 0.795);
+    width:4px;
+    height: 4px;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    position: absolute;
+    left: 4px;
+    top: 3px;
+
+}
+.vhs-green-navar-o2a{
+    background-color: rgba(218, 218, 218, 0.795);
+    width: 4px;
+    height: 4px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+
+}
+.description-vhsa{
+    background-color: rgb(83, 252, 83);
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    left: 13.9px;
+    top: 5px;
+    text-align: center;
+}
+.text-of-vhsa{
+    color: rgba(0, 128, 0, 0.651);
+    font-size: 2px;
+}
+.box-for-huggy-buggya{
+    overflow: scroll;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 5%;
+}
+.box-for-huggy-buggy2a{
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 5%;
+}
+.huggybuggyyb{
+background-color:blue;
+border-bottom-left-radius:80%; 
+border-top-left-radius:20%;    
+border-top-right-radius:60%;   
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.huggybuggyy2b{
+background-color:blue;
+border-bottom-right-radius:80%;
+border-top-right-radius:20%;   
+border-top-left-radius:60%;    
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+right:0px;
+}
+
+.huggybuggyy3b{
+background-color:blue;
+border-bottom-right-radius:10%;
+border-bottom-left-radius:10%;
+border-top-right-radius:10%;
+border-top-left-radius:10%;
+width:50px;
+height:30px;
+position:absolute;
+top:1.3px;
+left:24px;
+
+}
+.facehuggyb{
+
+width:50px;
+height:30px;
+position:absolute;
+top:4px;
+left:2px;
+}
+.eye1b{
+background-color:white;
+border-radius:50%;
+width:20px;
+height:20px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.eye2b{
+background-color:white;
+border-radius:50%;
+width:20px;
+height:20px;
+position:absolute;
+top:0px;
+right:0px;
+}
+.monthb{
+
+width:20px;
+height:10px;
+position:absolute;
+top:25px;
+left:15px;
+}
+.toplipsb{
+/*background-color:cyan;*/
+border-radius:50%;
+border-bottom:red solid  8px;
+width:70px;
+height:10px;
+position:absolute;
+top:-10px;
+left:-25px;
+}
+.bottomlipsb{
+/*background-color:cyan;*/
+border-radius:70%;
+border-bottom:red solid  8px;
+width:70px;
+height:10px;
+position:absolute;
+top:-3px;
+left:-25px;
+}
+.leftlipsb{
+/*background-color:cyan;*/
+border-radius:50%;
+border-left:red solid  8px;
+border-top:red solid  8px;
+border-bottom:red solid 8px;
+width:10px;
+height:-1px;
+position:absolute;
+top:-3px;
+left:-26px;
+transform:rotate(10deg);
+}
+.rightlipsb{
+/*background-color:cyan;*/
+border-radius:50%;
+border-right:red solid  8px;
+border-top:red solid  8px;
+border-bottom:red solid 8px;
+width:10px;
+height:-1px;
+position:absolute;
+top:-3px;
+right:-26px;
+transform:rotate(-10deg);
+}
+.endbye1b{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+}
+.endbye1b:hover{
+background-color:black;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+transform:scale(1.5);
+transition:5s;
+}
+.endbye2b{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+}
+.endbye2b:hover{
+background-color:black;
+transform:scale(1.5);
+transition:5s;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+}
+.hug-in-bugb{
+transform:rotatey(89.9deg);
+width:100px;
+height:50px;
+position:absolute;
+top:35px;
+left:30px;
+}
+.hug-in-bugb:hover{
+transform:rotatey(-180deg);
+width:100px;
+height:50px;
+position:absolute;
+top:35px;
+left:30px;
+animation-name:bugforhugub;
+animation-duration:50ms;
+animation-iteration-count:20;
+}
+@keyframes bugforhugub{
+0%{transform:rotatey(-180deg);}
+50%{transform:rotatey(89.9deg);}
+100%{transform:rotatey(-180deg);}
+}
+.screen-of-televisionb{
+width:150px;
+height:100px;
+background-color:black;
+border-top-left-radius:10%;
+border-top-right-radius:10%;
+border-bottom-left-radius:10%;
+border-bottom-right-radius:10%;
+}
+.televisionb{
+position:absolute;
+left:20%;
+top:10%;
+background-color:grey;
+width:152px;
+height:120px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+border-radius:5px;
+}
+/*.top-of-screenb{
+background-color:black;
+width:150px;
+height:30px;
+position:absolute;
+border-bottom-left-radius:80%;
+border-bottom-right-radius:80%;
+top:0%;
+left:6%;
+transform:rotatex(60deg);
+}
+.bottom-of-screenb{
+background-color:black;
+width:150px;
+height:30px;
+position:absolute;
+border-bottom-left-radius:80%;
+border-bottom-right-radius:80%;
+bottom:30%;
+left:6%;
+transform:rotatex(-120deg);
+
+}
+.left-of-screenb{
+background-color:black;
+width:30px;
+height:103px;
+position:absolute;
+border-bottom-right-radius:80%;
+border-top-right-radius:80%;
+
+top:5%;
+left:1.5%;
+transform:rotatey(60deg);
+}
+.right-of-screenb{
+background-color:black;
+width:30px;
+height:103px;
+position:absolute;
+border-bottom-right-radius:80%;
+border-top-right-radius:80%;
+top:5%;
+right:6.5%;
+transform:rotatey(120deg);
+}*/
+.rotate-of-huggyb{
+position:absolute;
+bottom:5%;
+right:20%;
+height:5.5px;
+background-color:grey;
+border:black solid 1px;
+border-radius:2px;
+}
+.fesharb{
+animation:bugtextb 5s infinite;
+font-size:15px;
+position:absolute;
+top:40px;
+transform:rotatey(180deg);
+}
+@keyframes bugtextb{
+0%{color:green;}
+50%{color:cyan;}
+100%{color:brown}
+}
+.yellowbuttonb{
+background-color:yellow;
+width:2.5px;
+height:2.5px;
+border-radius:50%;
+position:absolute;
+left:0.5px;
+top:0px;
+border:0.4px solid black;
+}
+.whitebuttonb{
+background-color:white;
+width:2.5px;
+height:2.5px;
+border-radius:50%;
+position:absolute;
+left:4.1px;
+top:0px;
+border:0.4px solid black;
+}
+.redbuttonb{
+background-color:red;
+width:2.5px;
+height:2.5px;
+border-radius:50%;
+position:absolute;
+right:0.5px;
+top:0px;
+border:0.4px solid black;
+}
+.speaker1b{
+background-color:black;
+position:absolute;
+bottom:5px;
+width:18px;
+height:18px;
+right:13px;
+border-radius:4px;
+}
+.speaker2b{
+background-color:black;
+position:absolute;
+bottom:5px;
+width:18px;
+height:18px;
+left:13px;
+border-radius:4px;
+}
+.morebutton1b{
+border-bottom:white 2px dashed;
+position:absolute;
+bottom:16px;
+width:50px;
+left:38px;
+}
+.morebutton2b{
+border-bottom:white 2px dashed;
+position:absolute;
+bottom:16px;
+width:34px;
+left:102px;
+}
+.spaceandstorageb{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:2px;
+position:absolute;
+bottom:6px;
+left:90px;
+}
+.imghahehab{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+left:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghahehab:hover{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+left:1.5px;
+transform:rotatey(180deg);
+}
+.imghaheha2b{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+right:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghaheha2b:hover{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+right:1.5px;
+transform:rotatey(180deg);
+}
+.imghaheha3b{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+right:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghaheha3b:hover{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+right:1.5px;
+transform:rotatey(180deg);
+}
+.imghaheha4b{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+left:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghaheha4b:hover{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+left:1.5px;
+transform:rotatey(180deg);
+}
+.spase-for-allb{
+background-color:skyblue;
+width:300px;
+height:500px;
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+overflow: hidden;
+}
+.device-conectb{
+border-right:black 2px solid;
+}
+.huggybuggyyc{
+background-color:blue;
+border-bottom-left-radius:80%;
+border-top-left-radius:20%;
+border-top-right-radius:60%;
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.huggybuggyy2c{
+background-color:blue;
+border-bottom-right-radius:80%;
+border-top-right-radius:20%;
+border-top-left-radius:60%;
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+right:0px;
+}
+
+.huggybuggyy3c{
+background-color:blue;
+border-bottom-right-radius:10%;
+border-bottom-left-radius:10%;
+border-top-right-radius:10%;
+border-top-left-radius:10%;
+width:50px;
+height:30px;
+position:absolute;
+top:1.3px;
+left:24px;
+
+}
+.facehuggyc{
+
+width:50px;
+height:30px;
+position:absolute;
+top:4px;
+left:2px;
+}
+.eye1c{
+background-color:white;
+border-radius:50%;
+width:20px;
+height:20px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.eye2c{
+background-color:white;
+border-radius:50%;
+width:20px;
+height:20px;
+position:absolute;
+top:0px;
+right:0px;
+}
+.monthc{
+
+width:20px;
+height:10px;
+position:absolute;
+top:25px;
+left:15px;
+}
+.toplipsc{
+/*background-color:cyan;*/
+border-radius:50%;
+border-bottom:red solid  8px;
+width:70px;
+height:10px;
+position:absolute;
+top:-10px;
+left:-25px;
+}
+.bottomlipsc{
+/*background-color:cyan;*/
+border-radius:70%;
+border-bottom:red solid  8px;
+width:70px;
+height:10px;
+position:absolute;
+top:-3px;
+left:-25px;
+}
+.leftlipsc{
+/*background-color:cyan;*/
+border-radius:50%;
+border-left:red solid  8px;
+border-top:red solid  8px;
+border-bottom:red solid 8px;
+width:10px;
+height:-1px;
+position:absolute;
+top:-3px;
+left:-26px;
+transform:rotate(10deg);
+}
+.rightlipsc{
+/*background-color:cyan;*/
+border-radius:50%;
+border-right:red solid  8px;
+border-top:red solid  8px;
+border-bottom:red solid 8px;
+width:10px;
+height:-1px;
+position:absolute;
+top:-3px;
+right:-26px;
+transform:rotate(-10deg);
+}
+.endbye1c{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+}
+.endbye1c:hover{
+background-color:black;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+transform:scale(1.5);
+transition:5s;
+}
+.endbye2c{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+}
+.endbye2c:hover{
+background-color:black;
+transform:scale(1.5);
+transition:5s;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+}
+.hug-in-bugc{
+transform:rotatey(89.9deg);
+width:100px;
+height:50px;
+position:absolute;
+top:35px;
+left:30px;
+}
+.hug-in-bugc:hover{
+transform:rotatey(-180deg);
+width:100px;
+height:50px;
+position:absolute;
+top:35px;
+left:30px;
+cursor: grab;
+animation-name:bugforhuguc;
+animation-duration:50ms;
+animation-iteration-count:20;
+}
+@keyframes bugforhuguc{
+0%{transform:rotatey(-180deg);}
+50%{transform:rotatey(89.9deg);}
+100%{transform:rotatey(-180deg);}
+}
+.screen-of-televisionc{
+width:150px;
+height:100px;
+background-color:black;
+border-top-left-radius:10%;
+border-top-right-radius:10%;
+border-bottom-left-radius:10%;
+border-bottom-right-radius:10%;
+}
+.televisionc{
+position:absolute;
+left:20%;
+top:10%;
+background-color:rgba(0, 0, 0, 0.932);
+width:152px;
+height:120px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+border-radius:5px;
+}
+/*.top-of-screenc{
+background-color:black;
+width:150px;
+height:30px;
+position:absolute;
+border-bottom-left-radius:80%;
+border-bottom-right-radius:80%;
+top:0%;
+left:6%;
+transform:rotatex(60deg);
+}
+.bottom-of-screenc{
+background-color:black;
+width:150px;
+height:30px;
+position:absolute;
+border-bottom-left-radius:80%;
+border-bottom-right-radius:80%;
+bottom:30%;
+left:6%;
+transform:rotatex(-120deg);
+
+}
+.left-of-screenc{
+background-color:black;
+width:30px;
+height:103px;
+position:absolute;
+border-bottom-right-radius:80%;
+border-top-right-radius:80%;
+
+top:5%;
+left:1.5%;
+transform:rotatey(60deg);
+}
+.right-of-screenc{
+background-color:black;
+width:30px;
+height:103px;
+position:absolute;
+border-bottom-right-radius:80%;
+border-top-right-radius:80%;
+top:5%;
+right:6.5%;
+transform:rotatey(120deg);
+}*/
+.rotate-of-huggyc{
+position:absolute;
+bottom:5%;
+right:20%;
+height:5.5px;
+background-color:grey;
+border:black solid 1px;
+border-radius:2px;
+}
+.fesharc{
+animation:bugtextc 5s infinite;
+font-size:15px;
+position:absolute;
+top:40px;
+transform:rotatey(180deg);
+}
+@keyframes bugtextc{
+0%{color:yellow;}
+50%{color:white;}
+100%{color:red;}
+}
+.yellowbuttonc{
+background-color:yellow;
+width:2.5px;
+height:2.5px;
+border-radius:50%;
+position:absolute;
+left:0.5px;
+top:0px;
+border:0.4px solid black;
+}
+.whitebuttonc{
+background-color:white;
+width:2.5px;
+height:2.5px;
+border-radius:50%;
+position:absolute;
+left:4.1px;
+top:0px;
+border:0.4px solid black;
+}
+.redbuttonc{
+background-color:red;
+width:2.5px;
+height:2.5px;
+border-radius:50%;
+position:absolute;
+right:0.5px;
+top:0px;
+border:0.4px solid black;
+}
+.speaker1c{
+background-color:black;
+position:absolute;
+bottom:5px;
+width:18px;
+height:18px;
+right:13px;
+border-radius:4px;
+}
+.speaker2c{
+background-color:black;
+position:absolute;
+bottom:5px;
+width:18px;
+height:18px;
+left:13px;
+border-radius:4px;
+}
+.morebutton1c{
+border-bottom:white 2px dashed;
+position:absolute;
+bottom:16px;
+width:50px;
+left:38px;
+}
+.morebutton2c{
+border-bottom:white 2px dashed;
+position:absolute;
+bottom:16px;
+width:34px;
+left:102px;
+}
+.spaceandstoragec{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:2px;
+position:absolute;
+bottom:6px;
+left:90px;
+}
+.imghahehac{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+left:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghahehac:hover{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+left:1.5px;
+transform:rotatey(180deg);
+}
+.imghaheha2c{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+right:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghaheha2c:hover{
+width:3px;
+height:3px;
+position:absolute;
+top:1.5px;
+right:1.5px;
+transform:rotatey(180deg);
+}
+.imghaheha3c{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+right:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghaheha3c:hover{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+right:1.5px;
+transform:rotatey(180deg);
+}
+.imghaheha4c{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+left:1.5px;
+transform:rotatey(89.5deg);
+}
+.imghaheha4c:hover{
+width:3px;
+height:3px;
+position:absolute;
+bottom:1.5px;
+left:1.5px;
+transform:rotatey(180deg);
+}
+.spase-for-allc{
+background-color:skyblue;
+width:300px;
+height:500px;
+position:absolute;
+top:10%;
+right:5%;
+/*transform:translate(-50%,-50%);*/
+overflow: hidden;
+}
+.all-huggy-wildc{
+    transform: rotateY(89.5deg);
+    width:20px;
+    height:10px;
+    position:absolute;
+    top:25px;
+    left:15px;
+}
+.all-huggy-wildc:hover{
+    transform: rotateY(-180deg);
+    width:20px;
+    height:10px;
+    position:absolute;
+    top:25px;
+    left:15px;
+}
+.huggybuggyy-1c{
+    background-color:blue;
+    border-bottom-left-radius:80%;
+    border-top-left-radius:20%;
+    border-top-right-radius:60%;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:-24px;
+    left:-35px;
+}
+.huggybuggyy2-1c{
+    background-color:blue;
+    border-bottom-right-radius:80%;
+    border-top-right-radius:20%;
+    border-top-left-radius:60%;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:-24px;
+    right:-39px;
+}
+
+.huggybuggyy3-1c{
+    background-color:blue;
+border-bottom-right-radius:10%;
+border-bottom-left-radius:10%;
+border-top-right-radius:10%;
+border-top-left-radius:10%;
+width:50px;
+height:30px;
+position:absolute;
+top:-24px;
+left:-13px;
+/*border: double;*/
+}
+.eye1-1c{
+    background-color:white;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.eye2-1c{
+    background-color:white;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.endbye1-1c{
+background-color:black;
+width:10px;
+height:10px;
+border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+transform:scale(1.5);
+}
+.endbye1-1c:hover{
+    background-color:black;
+    border-radius:50%;
+position:absolute;
+top:5px;
+right:5px;
+transform:scale(0.5);
+transition:5s;
+}
+.endbye2-1c{
+    background-color:black;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    position:absolute;
+    top:5px;
+    right:5px;
+    transform:scale(1.5);
+}
+.endbye2-1c:hover{
+    background-color:black;
+    transform:scale(0.5);
+    transition:5s;
+    border-radius:50%;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+.mounthwildc{
+    background-color: black;
+    position:absolute;
+    top: -3px;
+    left:-20px ;
+    width:65px;
+    height: 22px;
+    border-radius: 30%;
+}
+.top-lipsc{
+    border-top:solid red 10px;
+    width: 30px;
+    height: 13px;
+    border-radius:50% ;
+    position: absolute;
+    left: 18px;
+    top: -2.3px;
+}
+.top-lips-leftc{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 90px;
+    border-top: solid red 7px;
+    border-right: solid red 7.5px;
+    border-left: solid red 7px;
+    position: absolute;
+    left: -3.3px;
+    top: -3.8px;
+    width: 8px;
+    height: 15px;
+    transform: rotate(-63deg);
+}
+.top-lips-rightc{
+    border-top-left-radius: 90px;
+    border-top-right-radius: 50px;
+    border-top: solid red 7px;
+    border-right: solid red 7.5px;
+    border-left: solid red 7px;
+    position: absolute;
+    right: -3.3px;
+    top: -3.8px;
+    width: 8px;
+    height: 15px;
+    transform: rotate(63deg);
+    
+}
+.bottom-lipsc{
+    border-bottom: solid red 7px;
+    border-right: solid red 7.5px;
+    border-left: solid red 7px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    position: absolute;
+    right: 10.5px;
+    bottom: -5px;
+    width: 30px;
+    height: 5px;
+}
+.danden1c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    transform: rotate(-8deg);
+}
+.danden2c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    transform: rotate(8deg);
+}
+.danden3c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 12px;
+    transform: rotate(-8deg);
+}
+.danden4c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 14px;
+    bottom: 3px;
+    transform: rotate(8deg);
+}
+.danden5c{
+    background-color: white;
+    width: 5px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    transform: rotate(-8deg);
+}
+.danden6c{
+    background-color: white;
+    width: 5px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 24px;
+    bottom: -1px;
+    transform: rotate(8deg);
+}
+.danden7c{
+    background-color: white;
+    width: 5px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    transform: rotate(-8deg);
+}
+.danden8c{
+    background-color: white;
+    width: 5px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 32px;
+    bottom: -1px;
+    transform: rotate(8deg);
+}
+.danden9c{
+    background-color: white;
+    width: 5px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 38px;
+    transform: rotate(-8deg);
+}
+.danden10c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 14px;
+    bottom: 3px;
+    transform: rotate(-8deg);
+}
+.danden11c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    right: 12px;
+    transform: rotate(8deg);
+}
+.danden12c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    transform: rotate(-8deg);
+}
+.danden13c{
+    background-color: white;
+    width: 2px;
+    height:10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    transform: rotate(8deg);
+}
+.device-conectc{
+border-right:black 2px solid;
+border-bottom:black 2px solid;
+border-bottom-right-radius: 12%;
+width: 20px;
+height: 230px;
+position:absolute;
+top: 169px;
+left: 150px;
+transform: rotateY(50deg);
+}
+.tablefordevice2c{
+    background-color: rgb(182, 123, 45);
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 423px;
+    left: 90px;
+}
+.table2fordevice2c{
+    background-color: rgb(182, 123, 45);
+    width: 74px;
+    height: 20px;
+    position: absolute;
+    top: 450px;
+    left: 63px;
+    transform: rotate(90deg);
+}
+.table3fordevice2c{
+    background-color: rgb(182, 123, 45);
+    width: 74px;
+    height: 20px;
+    position: absolute;
+    top: 450px;
+    right: 63px;
+    transform: rotate(90deg);
+}
+.device2c{
+    background-color:rgb(16, 175, 16) ;
+    position: absolute;
+    top: 400px;
+    right: 120px;
+    width: 74px;
+    height: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.speaker1device2c{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.speaker2device2c{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.inputforvhsc{
+    background-color: black;
+    width: 44px;
+    height: 4px;
+    position: absolute;
+    top: 3px;
+    right: 15px;
+}
+.morestylec{
+    background-color: rgba(128, 128, 128, 0.87);
+    width: 44px;
+    height: 10px;
+    position: absolute;
+    top: 9.5px;
+    right: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.forallbuttonc{
+position:absolute;
+height:4px;
+width: 3px;
+background-color:black;
+border:rgba(0, 0, 0, 0.719) solid 0.5px;
+border-radius:2px;
+top: 13px;
+left: 1px;
+}
+.markvhsc{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 8px;
+    height: 2px;
+    position: absolute;
+    top: 13px;
+    right: 3px;
+}
+.yellowbuttondevice2c{
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    width: 3px;
+    height: 3px;
+}
+.whitebuttondevice2c{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 4.5px;
+    top: 0px;
+    width: 3px;
+    height: 3px;
+}
+.redbuttondevice2c{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    width: 3px;
+    height: 3px;
+}
+.morestyle2c{
+    background-color: rgba(0, 0, 0, 0.74);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+}
+.inmorestyle2c{
+    background-color: rgba(255, 255, 255, 0.856);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 2.5px;
+    left: 5px;
+}
+.morestyle3c{
+    background-color: rgba(0, 0, 0, 0.74);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 6px;
+    right: 4px;
+}
+.inmorestyle3c{
+    background-color: rgba(255, 255, 255, 0.856);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 2.5px;
+    right: 5px;
+}
+.morestyle4c{
+    background-color: rgba(0, 255, 0, 0.822);
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: 6px;
+    right: 14.8px;
+    border: solid 0.2px black;
+    text-align: center;
+}
+.textwithbuttonc{
+    animation-name: textofhuggyc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 2px;
+}
+@keyframes textofhuggyc{
+    0%{color: yellow;}
+    25%{color: white;}
+    50%{color: red;}
+    75%{color: rgb(61, 206, 61);}
+    100%{color: blue;}
+}
+.vhsfordevice2c{
+    background-color: rgb(36, 216, 36);
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    left: 75px;
+    transform: rotate(130deg);
+    
+}
+.vhsfordevice2c:hover{
+    background-color: rgb(36, 216, 36);
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    left: 75px;
+    transform: rotate(130deg);
+    animation: rotateforvhsc 20s 1;
+    cursor: grab;
+}
+@keyframes rotateforvhsc{
+    0%{left: 75px;transform: rotate(0deg);top: 5px;}
+    25%{transform: rotate(0deg);left: 75px;top: 10px;}
+    50%{transform: rotate(0deg);left: 45px;top: 20px;}
+    75%{transform: rotatex(50deg);left: 30px;top: 15px;}
+    100%{transform: rotatex(80deg);left: 15px;top: -5px;}
+
+}
+.class-a{
+    font-size: 8px;
+    transform: scale(2.5);
+    transition: 2s;
+    position:absolute;
+    top: 2%;
+    left: 15%;
+}
+.class-a:hover{
+    font-size: 8px;
+    transform: scale(5);
+    transition: 2s;
+    position:absolute;
+    top: 2%;
+    left: 15%;
+}
+.class-b{
+    font-size: 8px;
+    transform: scale(2.5);
+    transition: 2s;
+    position:absolute;
+    top: 2%;
+    left: 50%;
+}
+.class-b:hover{
+    font-size: 8px;
+    transform: scale(5);
+    transition: 2s;
+    position:absolute;
+    top: 2%;
+    left: 50%;
+}
+.class-c{
+    font-size: 8px;
+    transform: scale(2.5);
+    transition: 2s;
+    position:absolute;
+    top: 2%;
+    right: 15%;
+}
+.class-c:hover{
+    font-size: 8px;
+    transform: scale(5);
+    transition: 2s;
+    position:absolute;
+    top: 2%;
+    right: 15%;
+}
+</style>
+<script>
+    function rotatahagogab(){
+    document.getElementById('hoggydegb').innerHTML="hi player";
+    }
+    function rotatahagogac(){
+document.getElementById('hoggydegc').innerHTML="hi player";
+}
+function nohiddenc(){
+    document.getElementById('hihuggymousec').innerHTML="this vhs for player playtime";
+}
+</script>
+</head>
+<body>
+    <!--<div class="box-for-huggy-buggya">-->
+        <!--<div class="box-for-huggy-buggy2a">-->
+    <div class="background-all-itema">
+        <div class="chair-for-cddrivea">.</div>
+        <div class="chair2-for-cddrivea">.</div>
+        <!--<div class="chair3-for-cddrivea">.</div>-->
+        <!--<div class="chair4-for-cddrivea">.</div>-->
+        <div class="chair5-for-cddrivea">.</div>
+        <div class="cabla">.</div>
+        <div class="cd-drivea">
+            <div class="mothalasa">.</div>
+            <div class="vhs-greena">
+                <div class="description-vhsa"><p class="text-of-vhsa">this vhs for huggy buggy</p></div>
+                <div class="vhs-green-navara"><div class="vhs-green-navar-oa">.</div></div>
+                <div class="vhs-green-navar2a"><div class="vhs-green-navar-o2a">.</div></div>
+            </div>
+            <div class="cd-drive-inputa">.</div>
+            <div class="cd-drive-speaker1a">.</div>
+            <div class="cd-drive-speaker2a">.</div>
+            <div class="fishbox2a">.</div>
+            <div class="fishboxa">
+                <div class="yellow-fisha">.</div>
+                <div class="white-fisha">.</div>
+                <div class="red-fisha">.</div>
+            </div>
+        </div>
+        <div class="televsitiona">
+            <div class="speakers1a">.</div>
+            <div class="speakers2a">.</div>
+            <div class="border-dasha">.</div>
+            <div class="blackbuttona">.</div>
+            <div class="border-dash2a">.</div>
+            <button type="button" onclick="document.getElementById('buggymuggya').innerHTML" class="buttonhelp-yellowa">.</button>
+            <div class="background-of-huggya">
+                <div class="huggya" id="buggymuggya">
+                    <div class="eye1a"><div class="enabie1a">.</div></div>
+                    <div class="eye2a"><div class="enabie2a">.</div></div>
+                    <div class="mountha">
+                        <div class="dandan1a">.</div>
+                        <div class="dandan2a">.</div>
+                        <div class="dandan3a">.</div>
+                        <div class="dandan4a">.</div>
+                        <div class="dandan5a">.</div>
+                        <div class="top-lipsa">.</div>
+                        <div class="bottom-lipsa"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--<div class="screen-of-televisitiona" >.</div>-->
+    <div class="spase-for-allb">
+        <div class="device-conectb"></div>
+        <div class="televisionb">
+        <div class="spaceandstorageb"><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghahehab"  alt="." style="background-color:white;"><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghaheha2b"  alt="."style="background-color:white;"></a><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghaheha3b"  alt="."style="background-color:white;"></a><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghaheha4b"  alt="."style="background-color:white;"></a></div>
+        <div class="morebutton1b"></div>
+        <div class="morebutton2b"></div>
+        <div class="speaker1b"></div>
+        <div class="speaker2b"></div>
+        <button class="rotate-of-huggyb"  onclick="rotatahagogab();">
+        <div class="yellowbuttonb"></div>
+        <div class="whitebuttonb"></div>
+        <div class="redbuttonb"></div>
+        </button>
+        <!--<div class="top-of-screenb"></div>
+        <div class="left-of-screenb"></div>
+        <div class="right-of-screenb"></div>
+        <div class="bottom-of-screenb"></div>-->
+        <div class="screen-of-televisionb">
+        <div class="hug-in-bugb">
+        <div class="huggybuggyyb"></div>
+        <div class="huggybuggyy2b"></div>
+        <div class="huggybuggyy3b"><pre><p id="hoggydegb" class="fesharb"></p></pre><div class="facehuggyb"><div class="eye1b">   
+        <div class="endbye1b"></div></div><div class="eye2b"><div class="endbye2b"></div></div><div class="monthb" ><div class="toplipsb"></div><div class="bottomlipsb"></div><div class="leftlipsb"></div><div class="rightlipsb"></div></div></div></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!------------------------------------------>
+        <div class="spase-for-allc">
+            <div class="tablefordevice2c"></div>
+            <div class="table2fordevice2c"></div>
+            <div class="table3fordevice2c"></div>
+            <div class="device-conectc"></div>
+            <div class="device2c">
+                <div class="morestylec"></div>
+                <div class="vhsfordevice2c">
+                   <div class="morestyle2c"><div class="inmorestyle2c"></div></div>
+                   <div class="morestyle3c"><div class="inmorestyle3c"></div></div>
+                   <div class="morestyle4c"><p class="textwithbuttonc" id="hihuggymousec"></p></div>
+                </div>
+                <div class="inputforvhsc"></div>
+                <div class="speaker1device2c"></div>
+                <div class="speaker2device2c"></div>
+                <button class="forallbuttonc" onclick="nohiddenc();">
+                    <div class="yellowbuttondevice2c"></div>
+                    <div class="whitebuttondevice2c"></div>
+                    <div class="redbuttondevice2c"></div>
+                </button>
+                <div class="markvhsc"></div>
+            </div>
+            <div class="televisionc">
+                <div class="spaceandstoragec"><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghahehac"  alt="." style="background-color:white;"><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghaheha2c"  alt="."style="background-color:white;"></a><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghaheha3c"  alt="."style="background-color:white;"></a><a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="imghaheha4c"  alt="."style="background-color:white;"></a></div>
+                <div class="morebutton1c"></div>
+                <div class="morebutton2c"></div>
+                <div class="speaker1c"></div>
+    <div class="speaker2c"></div>
+    <button class="rotate-of-huggyc"  onclick="rotatahagogac();">
+    <div class="yellowbuttonc"></div>
+    <div class="whitebuttonc"></div>
+    <div class="redbuttonc"></div>
+    </button>
+    <!--<div class="top-of-screenc"></div>
+    <div class="left-of-screenc"></div>
+    <div class="right-of-screenc"></div>
+    <div class="bottom-of-screenc"></div>-->
+    <div class="screen-of-televisionc">
+    <div class="hug-in-bugc">
+    <div class="huggybuggyyc"></div>
+    <div class="huggybuggyy2c"></div>
+    <div class="huggybuggyy3c"><pre><p id="hoggydegc" class="fesharc"></p></pre><div class="facehuggyc"><div class="eye1c"><div class="endbye1c"></div></div><div class="eye2c"><div class="endbye2c"></div></div><div class="monthc" ><div class="toplipsc"></div><div class="bottomlipsc"></div><div class="leftlipsc"></div><div class="rightlipsc"></div></div></div>
+    <div class="all-huggy-wildc">
+    <div class="huggybuggyy-1c"></div>
+    <div class="huggybuggyy2-1c"></div>
+    <div class="huggybuggyy3-1c"><div class="eye1-1c"><div class="endbye1-1c"></div></div><div class="eye2-1c"><div class="endbye2-1c"></div></div></div><div class="mounthwildc"><div class="danden1c"></div><div class="danden2c"></div><div class="danden3c"></div><div class="danden4c"></div><div class="danden5c"></div><div class="danden6c"></div><div class="danden7c"></div><div class="danden8c"></div><div class="danden9c"></div><div class="danden10c"></div><div class="danden11c"></div><div class="danden12c"></div><div class="danden13c"></div><div class="top-lipsc"></div><div class="top-lips-rightc"></div><div class="top-lips-leftc"></div><div class="bottom-lipsc"></div></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <p class="class-a">try 1</p>
+    <p class="class-b">try 2</p>
+    <p class="class-c">try 3</p>
+</body>
+</html>
